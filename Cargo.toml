@@ -7,7 +7,7 @@ edition = "2021"
 proc-macro = true
 
 [dependencies]
-bird_binding = { version = "0.1.0", path = ".." }
+bird_binding = { git  = "https://github.com/ChousX/bird_binding.git" }
 proc-macro2 = "1.0"
 quote = "1.0"
 syn = { version = "1.0", features = ["full"] }
